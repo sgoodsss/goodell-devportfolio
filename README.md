@@ -19,4 +19,3 @@ gitignore/Global. (2017, July 06). gitignore/Global/macOS.gitignore. GitHub. htt
 ## License 
 
 Please refer to the LICENSE in the repo.
-Professional Web Development Portfolio
