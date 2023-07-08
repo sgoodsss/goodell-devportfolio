@@ -1,6 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #A9DBB8;
+}
 /* header color */
 html{
     scroll-behavior: smooth;;
   }
+
+header {
+    padding: 20px;
+    /* font-family: ???? */
+    background-color: #6F8695;
+}
+
+header nav {
+    /* padding-top: 15px; */
+    margin-right: 20px;
+    float: right;
+    /* font-family: ??? */
+    font-size: 30px;
+}
+
+/* nav ul {
+    list-style-type: none;
+} */
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 /* first project image needs to be larger in size than the others. */
   /* two media breakpoints: one for phone and one for tablet */
+
+footer {
+    background-color: #6F8695;
+}
