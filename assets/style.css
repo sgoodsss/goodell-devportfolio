@@ -1,1 +1,6 @@
 /* header color */
+html{
+    scroll-behavior: smooth;;
+  }
+/* first project image needs to be larger in size than the others. */
+  /* two media breakpoints: one for phone and one for tablet */
