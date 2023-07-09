@@ -17,28 +17,31 @@ html{
     scroll-behavior: smooth;;
   }
 
-header h1 {
+header {
+    background-color: #A9DBB8;
+}
+
+  header h1 {
     display: flex;
     justify-content: center;
     padding: 2.5%;
-    background-color: #A9DBB8;
     font-family: var(--print-font)
 }
 
 .selfie {
     display: flex;
     justify-content: center;
-    background-color: #A9DBB8;
     max-width: 10%;
     max-height: 10%;
     border-radius: 100%;
 }
 
 header nav {
+    background-color: #A9DBB8;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: var(--print-font)
+    font-family: var(--print-font);
     font-size: 30px;
 }
 
@@ -63,9 +66,10 @@ nav ul li {
 #my-work-content {
     background-color: #F5F5DC;
     font-family: var(--print-font)
-    display: flex;
-    justify-content: flex-start;
+    display; flex:
+    justify-content; flex-start:
 }
+
 /* first project image needs to be larger in size than the others. */
 #contact-info-content {
     background-color: #994636;
