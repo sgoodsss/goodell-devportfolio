@@ -1,3 +1,8 @@
+:root {
+    --print-font: 'Quicksand', sans-serif;
+    --cursive: 'Dancing Script', cursive;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,14 +20,14 @@ html{
 header {
     padding: 2.5%;
     background-color: #A9DBB8;
-    /* font-family: ???? */
+    font-family: var(--print-font)
 }
 
 header nav {
     /* padding-top: 15px; */
     margin-right: 20px;
     float: right;
-    /* font-family: ??? */
+    font-family: var(--print-font)
     font-size: 30px;
 }
 
@@ -37,14 +42,17 @@ nav ul li {
 
 #about-me-content {
     background-color:#CA907E ;
+    font-family: var(--print-font)
 }
 
 #my-work-content {
     background-color: #F5F5DC;
+    font-family: var(--print-font)
 }
 
 #contact-info-content {
     background-color: #994636;
+    font-family: var(--print-font)
 
 }
 /* first project image needs to be larger in size than the others. */
@@ -53,7 +61,7 @@ nav ul li {
 footer {
     padding: 30px;
     clear: both;
-    /* font-family: ??? */
+    font-family: var(--cursive);
     text-align: center;
-    background-color: #A9DBB8
+    background-color: #A9DBB8;
 }
