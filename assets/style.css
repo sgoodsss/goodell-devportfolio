@@ -76,6 +76,24 @@ nav ul li {
 }
 
 /* Style for My Work */
+.work-box {
+    border: 5px solid white;
+    min-height: 150px;
+    max-height: 150px;
+    background-color: #F5F5DC;
+    font-family: var(--print-font);
+    font-size: 25px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    margin: 0.5em;
+}
+
+.work-box:first-child {
+    max-height: 400px;
+    flex-basis: 100%;
+}
+
 #my-work-content {
     background-color: #F5F5DC;
     font-family: var(--print-font);
@@ -88,11 +106,15 @@ nav ul li {
     display: inline-block
 }
 
-#my-work-content img {
+.p1 {
+    background-image: url("../assets/img/Module\ 1\ Challenge\ img.png");
+}
+
+/* #my-work-content img {
     display: inline-block;
     max-width: 30%;
     max-height: 30%;
-}
+} */
 
 /* first project image needs to be larger in size than the others. */
 
