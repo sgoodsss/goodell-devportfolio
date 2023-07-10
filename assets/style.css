@@ -15,8 +15,9 @@ body {
 
 html{
     scroll-behavior: smooth;
-  }
+}
 
+/* Style for Header */
 h2 {
     padding: 1%;
 }
@@ -28,15 +29,16 @@ header {
   header h1 {
     display: flex;
     justify-content: center;
-    padding: 2.5%;
+    padding: 2%;
     font-family: var(--print-font)
 }
 
 .selfie {
-    display: flex;
-    justify-content: center;
-    max-width: 10%;
-    max-height: 10%;
+    display: inline-block;
+    margin-left: 43%;
+    padding: 1%;
+    max-width: 15%;
+    max-height: 15%;
     border-radius: 100%;
 }
 
@@ -55,30 +57,52 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 25px;
+    font-size: 90%;
 }
 
+/* Style for About Me Section */
 #about-me-content {
     background-color:#CA907E ;
-    font-family: var(--print-font)
+    font-family: var(--print-font);
+    font-size: 25px;
+    padding: 2%;
 }
 
 #about-me-content h3 {
     font-family: var(--cursive);
+    font-size: 40px;
+    padding: 1%;
 }
 
+/* Style for My Work */
 #my-work-content {
     background-color: #F5F5DC;
-    font-family: var(--print-font)
-    /* display; flex: */
+    font-family: var(--print-font);
+    font-size: 25px;
+    padding: 1%;
+}
+
+#my-work-content h3 {
+    padding: 1%;
+    display: inline-block
+}
+
+#my-work-content img {
+    display: inline-block;
+    max-width: 30%;
+    max-height: 30%;
 }
 
 /* first project image needs to be larger in size than the others. */
+
+/* Style for Contact Info */
+
 #contact-info-content {
     background-color: #994636;
     font-family: var(--print-font);
+    font-size: 30px;
+    list-style-type: none;
 }
-
-/* two media breakpoints: one for phone and one for tablet */
 
 footer {
     padding: 30px;
@@ -86,4 +110,8 @@ footer {
     font-family: var(--cursive);
     text-align: center;
     background-color: #A9DBB8;
+    font-size: 50px;
 }
+
+
+/* two media breakpoints: one for phone and one for tablet */
