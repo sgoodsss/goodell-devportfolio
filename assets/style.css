@@ -26,11 +26,12 @@ header {
     background-color: #A9DBB8;
 }
 
-  header h1 {
+header h1 {
     display: flex;
     justify-content: center;
     padding: 2%;
-    font-family: var(--print-font)
+    font-family: var(--print-font);
+    font-size: 60px
 }
 
 .selfie {
@@ -113,5 +114,12 @@ footer {
     font-size: 50px;
 }
 
+/* Media Query for Tablet */
+@media screen and (max-width: 768px){
+    
+}
 
-/* two media breakpoints: one for phone and one for tablet */
+/* Media Query for SmartPhones */
+@media screen and (max-width: 480px){
+    
+}
