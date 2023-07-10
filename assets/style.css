@@ -14,8 +14,12 @@ body {
 }
 
 html{
-    scroll-behavior: smooth;;
+    scroll-behavior: smooth;
   }
+
+h2 {
+    padding: 1%;
+}
 
 header {
     background-color: #A9DBB8;
@@ -38,11 +42,10 @@ header {
 
 header nav {
     background-color: #A9DBB8;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
     font-family: var(--print-font);
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -66,15 +69,13 @@ nav ul li {
 #my-work-content {
     background-color: #F5F5DC;
     font-family: var(--print-font)
-    display; flex:
-    justify-content; flex-start:
+    /* display; flex: */
 }
 
 /* first project image needs to be larger in size than the others. */
 #contact-info-content {
     background-color: #994636;
-    font-family: var(--print-font)
-
+    font-family: var(--print-font);
 }
 
 /* two media breakpoints: one for phone and one for tablet */
