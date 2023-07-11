@@ -65,7 +65,7 @@ nav ul li {
 #about-me-content {
     background-color:#CA907E ;
     font-family: var(--print-font);
-    font-size: 25px;
+    font-size: 30px;
     padding: 2%;
 }
 
@@ -92,38 +92,33 @@ nav ul li {
     width: 100vw;
 }
 
+#image-1 {
+    max-width: 100%;
+    border: #6F8695;
+
+}
+
+#image-2 {
+    max-width: 100%;
+}
+
 .p2, .p3, .p4, .p5 {
     max-width: 50%;
     padding: 10px;
     position: relative;
     text-align: right;
     font-size: large;
+    width: 100%;
 }
 
-
-/* .work-box {
-    border: 5px solid white;
-    min-height: 150px;
-    max-height: 150px;
-    background-color: #F5F5DC;
-    font-family: var(--print-font);
-    font-size: 25px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    margin: 0.5em;
-    flex-wrap: wrap;
-} */
-
-.work-box:first-child {
-    /* max-height: 800px;
-    flex-basis: 100%; */
+.work-box {
+    border: solid 5px white;
 }
 
 #my-work-content {
     background-color: #F5F5DC;
     font-family: var(--print-font);
-    font-size: 25px;
+    font-size: 30px;
     padding: 1%;
 }
 
@@ -136,14 +131,6 @@ nav ul li {
     /* background-image: url("../assets/img/Module\ 1\ Challenge\ img.png"); */
 
 }
-
-/* #my-work-content img {
-    display: inline-block;
-    max-width: 30%;
-    max-height: 30%;
-} */
-
-/* first project image needs to be larger in size than the others. */
 
 /* Style for Contact Info */
 
