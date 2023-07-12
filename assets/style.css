@@ -90,11 +90,11 @@ nav ul li {
     text-align: right;
     margin-left: calc(50%-50vw);
     width: 100vw;
+    margin: 10px;
 }
 
 #image-1 {
     max-width: 100%;
-
 }
 
 #image-2 {
@@ -105,13 +105,18 @@ nav ul li {
     max-width: 100%;
 }
 
-.p2, .p3, .p4, .p5 {
-    max-width: 50%;
+.p2 {
+    max-width: 48%;
     padding: 10px;
     position: relative;
     text-align: right;
     font-size: large;
     width: 100%;
+    margin: 10px;
+}
+
+.work-box:hover {
+    opacity: 0.5;
 }
 
 .work-box {
@@ -144,6 +149,15 @@ nav ul li {
     list-style-type: none;
 }
 
+#contact-info-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    max-width: 100%;
+    margin: 0px 20px;
+    justify-content: space-between;
+}
+
 footer {
     padding: 30px;
     clear: both;
@@ -154,11 +168,56 @@ footer {
 }
 
 /* Media Query for Tablet */
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 1030px){
+  h1 { 
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }  
+  .box-items p {
+    font-size: 25px;
+  }
+   .p2 {
+    max-width: 100%;
+   }
+   #contact-info-content ul {
+    flex-direction: column;
+    align-items: center;
+   }
+   #about-me-content {
+    font-size: 25px;
+   }
+   #about-me-content h3 {
+    font-size: 35px;
+    }
+    footer {
+        font-size: 40px;
+    }
 }
 
 /* Media Query for SmartPhones */
 @media screen and (max-width: 480px){
-    
+    h1 { 
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+      h3 {
+        font-size: 20px;
+      }  
+      .box-items p {
+        font-size: 20px;
+      }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        font-size: 1px;
+    }
 }
