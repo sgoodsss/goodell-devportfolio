@@ -94,11 +94,14 @@ nav ul li {
 
 #image-1 {
     max-width: 100%;
-    border: #6F8695;
 
 }
 
 #image-2 {
+    max-width: 100%;
+}
+
+#placeholder1, #placeholder2, #placeholder3 {
     max-width: 100%;
 }
 
