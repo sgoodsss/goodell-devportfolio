@@ -210,5 +210,17 @@ footer {
     #contact-info-content {
         font-size: 15px;
     }
-
+    .selfie {
+        max-width: 30%;
+        max-height: 30%;
+        margin-left: 35%;
+    }
+    footer {
+        font-size: 35px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 90%;
+    }
 }
