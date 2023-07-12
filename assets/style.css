@@ -103,6 +103,7 @@ nav ul li {
 
 #placeholder1, #placeholder2, #placeholder3 {
     max-width: 100%;
+    justify-content: center;
 }
 
 .p2 {
@@ -122,6 +123,7 @@ nav ul li {
 .work-box {
     border: solid 5px white;
 }
+
 
 #my-work-content {
     background-color: #F5F5DC;
