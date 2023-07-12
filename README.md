@@ -2,7 +2,7 @@
 
 ## Description 
 
-???
+My motivation for designing this project is to exhibit my skills building my own portfolio from scratch with HTML and CSS.  I built this project to use as a professional tool to showcase to future employers my experience and projects in one website.  By building this portfolio, I learned how much hard work goes into building even the simpliest of webpages!
 
 ## Installation 
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage 
 
-???
+To use Sarah's Web Development Portfolio, you can review the sections About Me, My Work, and Contact Info. Click on the navigation bar to scroll to the section that interests you.  To view my past projects and applications, go to the section labeled "My Work".  Click on any of the labeled boxes to be taken to that specific launched project or webpage.  To review my background and to contact me, please click the "About Me" or "Contact Info" headers on the navigation bar.
 
 ## Credits 
 
