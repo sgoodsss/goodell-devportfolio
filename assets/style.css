@@ -130,16 +130,6 @@ nav ul li {
     padding: 1%;
 }
 
-#my-work-content h3 {
-    /* padding: 1%;
-    display: inline-block */
-}
-
-.p1 {
-    /* background-image: url("../assets/img/Module\ 1\ Challenge\ img.png"); */
-
-}
-
 /* Style for Contact Info */
 
 #contact-info-content {
@@ -150,6 +140,7 @@ nav ul li {
 }
 
 #contact-info-content ul {
+    background-color: #994636;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -202,22 +193,22 @@ footer {
 /* Media Query for SmartPhones */
 @media screen and (max-width: 480px){
     h1 { 
-        font-size: 30px;
-      }
-      h2 {
+        font-size: 20px;
+    }
+    h2 {
         font-size: 25px;
-      }
-      h3 {
-        font-size: 20px;
-      }  
-      .box-items p {
-        font-size: 20px;
-      }
-    nav ul {
-        flex-direction: column;
-        align-items: center;
     }
-    header {
-        font-size: 1px;
+    h3 {
+        font-size: 20px;
+    }  
+    .box-items p {
+        font-size: 20px;
     }
+    #about-me-content p {
+        font-size: 15px;
+    }
+    #contact-info-content {
+        font-size: 15px;
+    }
+
 }
