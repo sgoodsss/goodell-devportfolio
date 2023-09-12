@@ -67,6 +67,8 @@ nav ul li {
     font-family: var(--print-font);
     font-size: 30px;
     padding: 2%;
+    padding-top: 5%;
+
 }
 
 #about-me-content h3 {
@@ -116,8 +118,8 @@ nav ul li {
     opacity: 0.5;
 }
 
-.work-box {
-    border: solid 5px white;
+.border {
+    border: solid 30px white;
 }
 
 
@@ -126,6 +128,10 @@ nav ul li {
     font-family: var(--print-font);
     font-size: 30px;
     padding: 1%;
+}
+
+.container-fluid.text-center {
+    background-color: #F5F5DC;
 }
 
 /* Style for Contact Info */
